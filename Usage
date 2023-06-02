@@ -1,0 +1,7 @@
+Install the required dependencies and set up the VR environment.
+Import the vr_object_interaction module into your VR application script.
+Initialize the object interaction system.
+Continuously capture hand tracking data from the VR controllers or hand tracking device.
+Pass the captured data to the detect_interaction(data) function.
+The function will detect the type of interaction (e.g., grab, throw) and the object being interacted with.
+Use the detected information to simulate the interaction in the VR world, applying realistic physics and object manipulation.
